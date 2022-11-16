@@ -6,6 +6,6 @@ spec:
  accessModes:
  - ReadWriteOnce
  resources:
- requests:
- storage: 5Mi
+  requests:
+   storage: 5Mi
  storageClassName: nfs-storage
